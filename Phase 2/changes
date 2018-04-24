@@ -1,0 +1,9 @@
+The following changes are made in mysql configuration:
+
+set global max_connections =10000000;
+set global max_connect_errors=10000;
+set global connect_timeout=100;
+set global net_read_timeout=1000;
+set global max_allowed_packet=524288000;
+set global thread_cache_size = 100;
+set global max_user_connections = 10000000;
